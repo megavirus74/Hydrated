@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{D0AA7DA3-9553-4B83-B864-4B5B5C1FBF1B}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="Hydrated/HydratedPage.xaml.cs" Line="59" Column="30" />
+      <File FileName="iOS/AppDelegate.cs" Line="15" Column="32" />
+      <File FileName="iOS/Main.cs" Line="17" Column="50" />
+      <File FileName="iOS/Info.plist" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Hydrated.Droid PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.ItemProperties.Hydrated.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.619044f07681ee578ebbf51ed82b1a137057cd71" />
+</Properties>

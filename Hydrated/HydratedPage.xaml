@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+		xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Name="clr-namespace:Hydrated" 
+		x:Class="Hydrated.HydratedPage" 
+		Title="Main page" 
+		BackgroundColor="##3498db">
+	<StackLayout>
+		<Grid Margin="32" VerticalOptions="Start">
+			<Grid.RowDefinitions>
+				<RowDefinition Height="*" />
+			</Grid.RowDefinitions>
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="*" />
+			</Grid.ColumnDefinitions>
+			<Image x:Name="drop1" Source="WaterNo"  Grid.Row="0" Grid.Column="0" />
+			<Image x:Name="drop2" Source="WaterNo"  Grid.Row="0" Grid.Column="1" />
+			<Image x:Name="drop3" Source="WaterNo"  Grid.Row="0" Grid.Column="2" />
+			<Image x:Name="drop4" Source="WaterNo"  Grid.Row="0" Grid.Column="3" />
+			<Image x:Name="drop5" Source="WaterNo"  Grid.Row="0" Grid.Column="4" />
+			<Image x:Name="drop6" Source="WaterNo"  Grid.Row="1" Grid.Column="0" />
+			<Image x:Name="drop7" Source="WaterNo"  Grid.Row="1" Grid.Column="1" />
+			<Image x:Name="drop8" Source="WaterNo"  Grid.Row="1" Grid.Column="2" />
+			<Image x:Name="drop9" Source="WaterNo"  Grid.Row="1" Grid.Column="3" />
+			<Image x:Name="drop10" Source="WaterNo"  Grid.Row="1" Grid.Column="4" />
+		</Grid>
+		<StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand" HorizontalOptions="Center" Spacing="16">
+			<StackLayout VerticalOptions="CenterAndExpand">
+				<Label x:Name="countLabel" Text="0" Font="48" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" TextColor="White" />
+				<BoxView Color="White" HeightRequest="2" WidthRequest="64" HorizontalOptions="Center" />
+				<Label Text="10" Font="48" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" TextColor="White" />
+			</StackLayout>
+			<Label Text="стаканов" Font="24"  VerticalOptions="CenterAndExpand" TextColor="White" />
+		</StackLayout>
+		<StackLayout Orientation="Vertical" VerticalOptions="End" HorizontalOptions="FillAndExpand" Spacing="16" Margin="32">
+			<Button x:Name="drinkButton" Text="   Я выпил стакан воды   " HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" BackgroundColor="White" TextColor="#3498db" Clicked="OnDrinkPressed" />
+			<Button Image="Reset" Text="Сброс" HorizontalOptions="FillAndExpand" VerticalOptions="CenterAndExpand" TextColor="White" BorderColor="White" BorderWidth="1" Clicked="OnResetPressed"/>
+		</StackLayout>
+	</StackLayout>
+</ContentPage>
