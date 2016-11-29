@@ -1,3 +1,6 @@
 iOS/bin/
 iOS/obj/
 packages/
+Droid/obj/
+Droid/bin/
+Components/

@@ -1,11 +1,33 @@
 ﻿<Properties StartupConfiguration="{D0AA7DA3-9553-4B83-B864-4B5B5C1FBF1B}|Default">
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Hydrated/HydratedPage.xaml.cs" Line="59" Column="30" />
       <File FileName="iOS/AppDelegate.cs" Line="15" Column="32" />
-      <File FileName="iOS/Main.cs" Line="17" Column="50" />
-      <File FileName="iOS/Info.plist" />
+      <File FileName="Droid/Resources/Resource.designer.cs" Line="29" Column="123" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.0.2-37/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
+      <File FileName="Hydrated/App.xaml.cs" Line="1" Column="15" />
+      <File FileName="Hydrated/HydratedPage.xaml.cs" Line="33" Column="88" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Hydrated" expanded="True">
+            <Node name="Hydrated" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="HydratedPage.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="Hydrated.Droid" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Assets" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+            <Node name="Hydrated.iOS" expanded="True">
+              <Node name="Packages" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -30,7 +30,7 @@ namespace Hydrated
 			if (Application.Current.Properties.ContainsKey("lastDate"))
 			{
 				var lastDate = (DateTime) Application.Current.Properties["lastDate"];
-				if (lastDate.Day != DateTime.Today.Day && lastDate.Month != DateTime.Today.Month && lastDate.Year != DateTime.Today.Year)
+				if (lastDate.Day != DateTime.Today.Day || lastDate.Month != DateTime.Today.Month || lastDate.Year != DateTime.Today.Year)
 				{
 					UpdateWaterCount(0);
 				}

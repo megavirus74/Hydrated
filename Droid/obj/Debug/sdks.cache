@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Sdk>
-  <AndroidApiLevel>25</AndroidApiLevel>
-  <AndroidApiLevelName>25</AndroidApiLevelName>
-  <AndroidNdkPath />
+  <AndroidApiLevel>21</AndroidApiLevel>
+  <AndroidApiLevelName>21</AndroidApiLevelName>
+  <AndroidNdkPath>/Users/volkoivan/Library/Android/ndk</AndroidNdkPath>
   <AndroidSdkBuildToolsPath>/Users/volkoivan/Library/Android/sdk/build-tools/25.0.1</AndroidSdkBuildToolsPath>
   <AndroidSdkBuildToolsBinPath>/Users/volkoivan/Library/Android/sdk/build-tools/25.0.1</AndroidSdkBuildToolsBinPath>
   <AndroidSdkPath>/Users/volkoivan/Library/Android/sdk</AndroidSdkPath>
@@ -12,9 +12,9 @@
   <ReferenceAssemblyPaths>
     <ReferenceAssemblyPath>/Library/Frameworks/Mono.framework/External/xbuild-frameworks/MonoAndroid/v1.0/</ReferenceAssemblyPath>
   </ReferenceAssemblyPaths>
-  <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
+  <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
   <ZipAlignPath>/Users/volkoivan/Library/Android/sdk/build-tools/25.0.1</ZipAlignPath>
   <MonoAndroidIncludePath />
-  <SupportedApiLevel>24</SupportedApiLevel>
+  <SupportedApiLevel>21</SupportedApiLevel>
   <AndroidSequencePointsMode>None</AndroidSequencePointsMode>
 </Sdk>
