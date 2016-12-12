@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{25EB00EE-8582-4C22-BADA-06BE5585A3EA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/Main.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HydratedTest/MyTest.cs">
     <Files>
-      <File FileName="iOS/AppDelegate.cs" Line="17" Column="31" />
+      <File FileName="iOS/AppDelegate.cs" Line="11" Column="96" />
       <File FileName="Droid/Resources/Resource.designer.cs" Line="29" Column="123" />
       <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/7.0.2-37/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="1" Column="1" />
       <File FileName="Hydrated/App.xaml.cs" Line="1" Column="7" />
-      <File FileName="Hydrated/HydratedPage.xaml.cs" Line="7" Column="38" />
-      <File FileName="HydratedTest/UnitTestAppDelegate.cs" Line="4" Column="1" />
-      <File FileName="HydratedTest/MyTest.cs" Line="11" Column="39" />
+      <File FileName="Hydrated/HydratedPage.xaml.cs" Line="50" Column="31" />
+      <File FileName="HydratedTest/UnitTestAppDelegate.cs" Line="20" Column="3" />
+      <File FileName="HydratedTest/MyTest.cs" Line="52" Column="32" />
       <File FileName="HydratedTest/Main.cs" Line="17" Column="1" />
       <File FileName="iOS/Entitlements.plist" />
-      <File FileName="iOS/Main.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="21" Column="1" />
       <File FileName="iOS/Info.plist" />
     </Files>
     <Pads>
@@ -32,10 +32,10 @@
                 <Node name="From Packages" expanded="True" />
               </Node>
               <Node name="Packages" expanded="True" />
-              <Node name="Entitlements.plist" selected="True" />
             </Node>
             <Node name="HydratedTest" expanded="True">
               <Node name="References" expanded="True" />
+              <Node name="MyTest.cs" selected="True" />
             </Node>
           </Node>
         </State>
