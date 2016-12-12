@@ -2,7 +2,7 @@
 <Sdk>
   <AndroidApiLevel>21</AndroidApiLevel>
   <AndroidApiLevelName>21</AndroidApiLevelName>
-  <AndroidNdkPath>/Users/volkoivan/Library/Android/ndk</AndroidNdkPath>
+  <AndroidNdkPath />
   <AndroidSdkBuildToolsPath>/Users/volkoivan/Library/Android/sdk/build-tools/25.0.1</AndroidSdkBuildToolsPath>
   <AndroidSdkBuildToolsBinPath>/Users/volkoivan/Library/Android/sdk/build-tools/25.0.1</AndroidSdkBuildToolsBinPath>
   <AndroidSdkPath>/Users/volkoivan/Library/Android/sdk</AndroidSdkPath>

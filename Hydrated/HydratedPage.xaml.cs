@@ -6,8 +6,8 @@ namespace Hydrated
 {
 	public partial class HydratedPage : ContentPage
 	{
-		List<Image> drops = new List<Image>(10);
-		int waterCount = 0;
+		public List<Image> drops = new List<Image>(10);
+		public int waterCount = 0;
 		public HydratedPage()
 		{
 			InitializeComponent();

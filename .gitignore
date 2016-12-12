@@ -4,3 +4,5 @@ packages/
 Droid/obj/
 Droid/bin/
 Components/
+HydratedTest/bin/
+HydratedTest/obj/
